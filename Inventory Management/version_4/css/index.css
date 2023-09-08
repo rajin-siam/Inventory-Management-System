@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('http://localhost/finalproject/version_4/cover.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+}
+
+h1 {
+    font-size: 45px;
+    margin-top: 20px;
+    color: rgba(0, 0, 0, 0.9);
+}
+
+h2 {
+    font-size: 40px;
+    margin-top: 20px;
+    color: rgba(0, 0, 0, 0.9);
+}
+
+.start {
+    background-color: wheat;
+    padding: 5px 10px; 
+    border-radius: 15px; 
+    margin-top: 20px; 
+    display: inline-block; 
+}
+
+.start a {
+    text-decoration: none; 
+    color: rgba(0, 0, 0, 0.9); 
+    font-weight:bold;
+}
+
+.start p{
+    font-size: larger;
+}
